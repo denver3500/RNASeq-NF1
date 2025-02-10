@@ -40,7 +40,16 @@ gene_sets <- list(
   Collagen_XXV = c("COL25A1"),
   Collagen_XXVI = c("COL26A1"),
   Collagen_XXVII = c("COL27A1"),
-  Collagen_XXVIII = c("COL28A1")
+  Collagen_XXVIII = c("COL28A1"),
+  Epithelial = c("CDH1", "TJP1", "DSP"),
+  EMT = c("SNAI1", "SNAI2", "TWIST1", "LEF1"),
+  Mesenchymal = c("CDH2", "VIM", "CTNNB1", "ACTA2"),
+  Laminin_alpha = c("LAMA1", "LAMA2", "LAMA3", "LAMA4", "LAMA5"),
+  Laminin_beta = c("LAMB1", "LAMB2", "LAMB3", "LAMB4"),
+  Laminin_gamma = c("LAMC1", "LAMC2", "LAMC3"),
+  Intergrin_alpha = c("ITGA1", "ITGA2", "ITGA3", "ITGA4", "ITGA5", "ITGA6", "ITGA7", "ITGA8", "ITGA9", "ITGA10", "ITGA11", "ITGAD", "ITGAE", "ITGAL", "ITGAM", "ITGAV", "ITGA2B", "ITGAX"),
+  Integrin_beta = c("ITGB1", "ITGB2", "ITGB3", "ITGB4", "ITGB5", "ITGB6", "ITGB7", "ITGB8"),
+  Piezo_channels = c("PIEZO1", "PIEZO2")
 )
 
 # Loop through each gene set
