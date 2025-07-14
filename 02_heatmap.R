@@ -144,7 +144,7 @@ create_heatmap <- function(transparent_bg = TRUE) {
     geom_text(aes(label = display_stars), color = "black", size = 4, fontface = "bold") +
     scale_fill_gradient(low = "white", high = "red", 
                         name = "Log2\nExpression") +
-    scale_x_discrete(labels = c("PN" = "Plexiform Neurofibroma", "MPNST" = "Malignant Peripheral Nerve Sheath Tumor")) +
+    scale_x_discrete(labels = c("PN", "MPNST" )) +
     theme_minimal() +
     theme(
       axis.text.x = element_text(angle = 45, hjust = 1, size = 12),
